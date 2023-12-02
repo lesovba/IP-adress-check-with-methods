@@ -34,3 +34,16 @@ void ValidateZeroes()
 
     validZeroes = true;
 }
+
+void ValidateRange()
+{
+    foreach (string number in address)
+    {
+        if (int.Parse(number) > 255)
+        {
+            validRange = false;
+            return;
+        }
+    }
+    validRange = true;
+}

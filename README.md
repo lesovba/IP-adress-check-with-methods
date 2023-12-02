@@ -1,4 +1,1 @@
-# IP-adress-check-with-methods
-Remote repository for MS Learn IP Address check C#
-
-Репозиторий создал для выполнения ДЗ №1 по курсу GIT Advanced. 
+Локальный репозиторий для использования в практике GIT-advanced, HomeWork#1

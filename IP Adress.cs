@@ -4,6 +4,7 @@ bool validLength = false;
 bool validZeroes = false;
 bool validRange = false;
 
+// Some comments 
 foreach (string ip in ipv4Input)
 {
     address = ip.Split(".", StringSplitOptions.RemoveEmptyEntries);
@@ -21,7 +22,7 @@ foreach (string ip in ipv4Input)
         Console.WriteLine($"{ip} is an invalid IPv4 address");
     }
 }
-
+// Some comments 
 void ValidateLength()
 {
     validLength = address.Length == 4;

@@ -21,3 +21,16 @@ foreach (string ip in ipv4Input)
         Console.WriteLine($"{ip} is an invalid IPv4 address");
     }
 }
+void ValidateZeroes()
+{
+    foreach (string number in address)
+    {
+        if (number.Length > 1 && number.StartsWith("0"))
+        {
+            validZeroes = false;
+            return;
+        }
+    }
+
+    validZeroes = true;
+}
